@@ -38,33 +38,51 @@
   
   <div id="container">
 
-    <div class="download">
-      <a href="http://github.com/cocoastep/Detour/zipball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
-      <a href="http://github.com/cocoastep/Detour/tarball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
-    </div>
-      
     <h1><a href="http://github.com/cocoastep/Detour">Detour</a> 
       <span class="small">by <a href="http://github.com/cocoastep">cocoastep</a></span></h1>
 
-    <div class="description">
-      Introducing Detour, the world's first available web browser for iPad.
+		<div class="description">
+      <center>Introducing Detour, the world's first available web browser for iPad.</center>
     </div>
 
-    <h2>Authors</h2>
-<p>lowell vizon (lowell@cocoastep.com)<br/><br/>      </p>
+		<p><center><img src="detour.png"/></center></p>
+
+		<p>Developing an iPad application that uses OAuth is a little difficult right now because MobileSafari may or not be available in the Simulator that may or may not be a part of iPhone SDK 3.2 beta.</p>
+
+		<h2>How can Detour help?</h2>
+
+		<p>When a user needs to authenticate with a service, like Twitter or something, they are taken to the service itself to log in. In a native application, this means opening the system&#8217;s default browser; if the system doesn&#8217;t have anything that responds to an <code>http</code> or <code>https</code> URL scheme, nothing happens.</p>
+
+		<p>This may or not be the experience a developer will have when writing a native OAuth application for iPad. If they can&#8217;t authenticate, they&#8217;re not getting any further than their app&#8217;s launch screen.</p>
+
+		<p>Detour will step in as the default browser, handle the app&#8217;s request and load the authentication page.</p>
+
+		<p>Once the developer has authenticated, the OAuth callback URL is the next destination; provided the developer correctly set that up both in the app bundle&#8217;s <code>plist</code> and the app delegate, their application will come right back up - with the developer authenticated and ready to consume the provider&#8217;s services!</p>
+
+		<h2>Download, Build and Run</h2>
+
+		<ul>
+		<li>Open a shell</li>
+		<li><pre>git clone git://github.com/cocoastep/Detour.git Detour</pre></li>
+		<li><pre>cd Detour</pre></li>
+		<li><pre>open Detour.xcodeproj</pre></li>
+		<li>Hit <code>⌘-B</code> to build the application and run.</li>
+		<li><em>replace the previous two with <code>xcodebuild</code> if you just want to build it.</em></li>
+		</ul>
+
+		<p><em>Detour is not intended to be used in a production environment. This application identifies itself to the system as</em> <code>com.apple.mobilesafari</code><em>; this is necessary to intercept <code>http</code> requests, as it is a reserved URL scheme on this platform. You should remove this application from the Simulator once Apple provides an available browser.</em></p>
+
+    <h2>Author</h2>
+<p>lowell vizon (lowell@cocoastep.com)
+<br/>
+<br/>      </p>
 <h2>Contact</h2>
-<p>lowell (lowell@cocoastep.com)<br/>      </p>
+<p>lowell (lowell@cocoastep.com)
+<br/>      </p>
 
 
     <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="http://github.com/cocoastep/Detour/zipball/master">zip</a> or
-      <a href="http://github.com/cocoastep/Detour/tarball/master">tar</a> formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
+    <p>You can clone the project with <a href="http://git-scm.com">Git</a>
       by running:
       <pre>$ git clone git://github.com/cocoastep/Detour</pre>
     </p>
