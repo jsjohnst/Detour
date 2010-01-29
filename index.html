@@ -45,21 +45,23 @@
       <center>Introducing Detour, the world's first available web browser for iPad.</center>
     </div>
 
-		<p><center><img src="detour.png"/></center></p>
+		<p><center><img src="detour.png" alt="Yes, it looks bad. I'm not a designer. It's passable for something made in Keynote.app though, right?"/></center></p>
 
 		<p>Developing an iPad application that uses OAuth is a little difficult right now because MobileSafari may or not be available in the Simulator that may or may not be a part of iPhone SDK 3.2 beta.</p>
 
 		<h2>How can Detour help?</h2>
 
-		<p>When a user needs to authenticate with a service, like Twitter or something, they are taken to the service itself to log in. In a native application, this means opening the system&#8217;s default browser; if the system doesn&#8217;t have anything that responds to an <code>http</code> or <code>https</code> URL scheme, nothing happens.</p>
+		<p>When a user needs to authenticate with a service, like Twitter or something, they are <a href="http://blog.atebits.com/2009/02/fixing-oauth/">taken to the service itself</a> to log in. In a native application, this means opening the system&#8217;s default browser; if the system doesn&#8217;t have anything that responds to an <code>http</code> or <code>https</code> URL scheme, nothing happens.</p>
 
-		<p>This may or not be the experience a developer will have when writing a native OAuth application for iPad. If they can&#8217;t authenticate, they&#8217;re not getting any further than their app&#8217;s launch screen.</p>
+		<p>This may or not be the experience a developer will have when writing a native OAuth application for iPad. If they can&#8217;t authenticate, they&#8217;re not getting any further than their own app&#8217;s launch screen.</p>
 
 		<p>Detour will step in as the default browser, handle the app&#8217;s request and load the authentication page.</p>
 
-		<p>Once the developer has authenticated, the OAuth callback URL is the next destination; provided the developer correctly set that up both in the app bundle&#8217;s <code>plist</code> and the app delegate, their application will come right back up - with the developer authenticated and ready to consume the provider&#8217;s services!</p>
+		<p>Once the developer has authenticated, the OAuth callback URL is the next destination (e.g. <code>twitter_app://oauth_callback</code>); provided the developer correctly set that up both in the app bundle&#8217;s <code>plist</code> and the app delegate, their application will come right back up - with the developer authenticated and ready to consume the provider&#8217;s services!</p>
 
 		<h2>Download, Build and Run</h2>
+
+		<p>Detour is available only in source form.</p>
 
 		<ul>
 		<li>Open a shell</li>
@@ -70,7 +72,11 @@
 		<li><em>replace the previous two with <code>xcodebuild</code> if you just want to build it.</em></li>
 		</ul>
 
+		<h2>Final Thoughts</h2>
+
 		<p><em>Detour is not intended to be used in a production environment. This application identifies itself to the system as</em> <code>com.apple.mobilesafari</code><em>; this is necessary to intercept <code>http</code> requests, as it is a reserved URL scheme on this platform. You should remove this application from the Simulator once Apple provides an available browser.</em></p>
+
+		<p><em>All browser requests must specify the protocol. In other words, if you want to visit <code>apple.com</code>, type <code>http://apple.com</code> in the address bar. Given Detour's intended use case, I opted not to autocorrect unspecific URL requests.</em></p>
 
     <h2>Author</h2>
 <p>lowell vizon (lowell@cocoastep.com)
