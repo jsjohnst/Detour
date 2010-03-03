@@ -1,0 +1,387 @@
+TDetour
+v7
+r0
+t286444717.332522
+cCheck dependencies
+cProcessInfoPlistFile /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/Info.plist Detour-Info.plist
+cCompileXIB /Users/lowell/Projects/iPhone/Detour/MainWindow.xib
+cCompileXIB /Users/lowell/Projects/iPhone/Detour/Classes/../DetourViewController.xib
+cCpResource build/Debug-iphonesimulator/Detour.app/detour.icns detour.icns
+cCpResource build/Debug-iphonesimulator/Detour.app/Icon.png Icon.png
+cCpResource build/Debug-iphonesimulator/Detour.app/back_pressed.png back_pressed.png
+cCpResource build/Debug-iphonesimulator/Detour.app/back.png back.png
+cCpResource build/Debug-iphonesimulator/Detour.app/forward_pressed.png forward_pressed.png
+cCpResource build/Debug-iphonesimulator/Detour.app/forward.png forward.png
+cCpResource build/Debug-iphonesimulator/Detour.app/README.markdown README.markdown
+cProcessPCH /var/folders/YO/YO6CM3CbFC0OJreixas9j++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Detour_Prefix-cgujuoxrpxdurrcrackddcgnsokp/Detour_Prefix.pch.gch Detour_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Detour.build/Debug-iphonesimulator/Detour.build/Objects-normal/i386/main.o /Users/lowell/Projects/iPhone/Detour/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Detour.build/Debug-iphonesimulator/Detour.build/Objects-normal/i386/DetourAppDelegate.o /Users/lowell/Projects/iPhone/Detour/Classes/DetourAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Detour.build/Debug-iphonesimulator/Detour.build/Objects-normal/i386/DetourViewController.o /Users/lowell/Projects/iPhone/Detour/Classes/DetourViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/Detour normal i386
+cGenerateDSYMFile /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app.dSYM /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/Detour
+cTouch /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004B613C690000000000000110
+t1264663657
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B567172000000000026F020
+t1263956338
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B56718B0000000000288B20
+t1263956363
+s2657056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B56717E0000000000001355
+t1263956350
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B56A2960000000000000970
+t1263968918
+s2416
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B56A324000000000211C6C0
+t1263969060
+s34719424
+
+N/Users/lowell/Projects/iPhone/Detour/Classes/../DetourViewController.xib
+c000000004B6295230000000000007660
+t1264751907
+s30304
+
+N/Users/lowell/Projects/iPhone/Detour/Classes/DetourAppDelegate.h
+c000000004B62952300000000000005F2
+t1264751907
+s1522
+
+N/Users/lowell/Projects/iPhone/Detour/Classes/DetourAppDelegate.m
+c000000004B62952300000000000006B0
+t1264751907
+s1712
+i"DetourAppDelegate.h"
+i"DetourViewController.h"
+
+N/Users/lowell/Projects/iPhone/Detour/Classes/DetourViewController.h
+c000000004B629523000000000000075B
+t1264751907
+s1883
+
+N/Users/lowell/Projects/iPhone/Detour/Classes/DetourViewController.m
+c000000004B6295230000000000000D9C
+t1264751907
+s3484
+i"DetourViewController.h"
+i"DetourAppDelegate.h"
+
+N/Users/lowell/Projects/iPhone/Detour/Detour_Prefix.pch
+c000000004B6295230000000000000102
+t1264751907
+s258
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/lowell/Projects/iPhone/Detour/Icon.png
+c000000004B6295230000000000001015
+t1264751907
+s4117
+
+N/Users/lowell/Projects/iPhone/Detour/MainWindow.xib
+c000000004B6295230000000000004D0B
+t1264751907
+s19723
+
+N/Users/lowell/Projects/iPhone/Detour/README.markdown
+c000000004B62952300000000000006FA
+t1264751907
+s1786
+
+N/Users/lowell/Projects/iPhone/Detour/back.png
+c000000004B62952300000000000007EA
+t1264751907
+s2026
+
+N/Users/lowell/Projects/iPhone/Detour/back_pressed.png
+c000000004B62952300000000000007F3
+t1264751907
+s2035
+
+N/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app
+t1264751917
+s476
+
+N/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app.dSYM
+t1264751917
+s102
+
+N/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/Detour
+t1264751917
+s26280
+
+N/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/DetourViewController.nib
+t1264751915
+s2932
+
+N/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/Icon.png
+t1264751915
+s4117
+
+N/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/Info.plist
+t1264751914
+s727
+
+N/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/MainWindow.nib
+t1264751915
+s1091
+
+N/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/PkgInfo
+t1264751914
+s8
+
+N/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/README.markdown
+t1264751915
+s1786
+
+N/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/back.png
+t1264751915
+s2026
+
+N/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/back_pressed.png
+t1264751915
+s2035
+
+N/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/detour.icns
+t1264751915
+s123639
+
+N/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/forward.png
+t1264751915
+s1980
+
+N/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/forward_pressed.png
+t1264751915
+s1984
+
+N/Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/Objects-normal/i386/Detour.LinkFileList
+c000000004B62952A000000000000017F
+t1264751914
+s383
+
+N/Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/Objects-normal/i386/DetourAppDelegate.o
+t1264751916
+s41748
+
+N/Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/Objects-normal/i386/DetourViewController.o
+t1264751917
+s52832
+
+N/Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/Objects-normal/i386/main.o
+t1264751916
+s5940
+
+N/Users/lowell/Projects/iPhone/Detour/detour.icns
+c000000004B629523000000000001E2F7
+t1264751907
+s123639
+
+N/Users/lowell/Projects/iPhone/Detour/forward.png
+c000000004B62952300000000000007BC
+t1264751907
+s1980
+
+N/Users/lowell/Projects/iPhone/Detour/forward_pressed.png
+c000000004B62952300000000000007C0
+t1264751907
+s1984
+
+N/Users/lowell/Projects/iPhone/Detour/main.m
+c000000004B629523000000000000056C
+t1264751907
+s1388
+
+N/var/folders/YO/YO6CM3CbFC0OJreixas9j++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Detour_Prefix-cgujuoxrpxdurrcrackddcgnsokp/Detour_Prefix.pch.gch
+t1264751916
+s13719376
+
+NDetour-Info.plist
+c000000004B6295230000000000000532
+t1264751907
+s1330
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies286444714#286444714#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileC build/Detour.build/Debug-iphonesimulator/Detour.build/Objects-normal/i386/DetourAppDelegate.o /Users/lowell/Projects/iPhone/Detour/Classes/DetourAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s286444716.873695
+e286444717.005009
+r1
+xCompileC
+xbuild/Detour.build/Debug-iphonesimulator/Detour.build/Objects-normal/i386/DetourAppDelegate.o
+x/Users/lowell/Projects/iPhone/Detour/Classes/DetourAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/lowell/Projects/iPhone/Detour/Classes/DetourAppDelegate.m286444716#286444717#0(0"0(0#0#64"/Users/lowell/Projects/iPhone/Detour/Classes/DetourAppDelegate.m4300903632#1911"    cd /Users/lowell/Projects/iPhone/Detour    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/Detour-generated-files.hmap -I/Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/Detour-own-target-headers.hmap -I/Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/Detour-all-target-headers.hmap -iquote /Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/Detour-project-headers.hmap -F/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator -I/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/include -I/Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/DerivedSources/i386 -I/Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/DerivedSources -include /var/folders/YO/YO6CM3CbFC0OJreixas9j++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Detour_Prefix-cgujuoxrpxdurrcrackddcgnsokp/Detour_Prefix.pch -c /Users/lowell/Projects/iPhone/Detour/Classes/DetourAppDelegate.m -o /Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/Objects-normal/i386/DetourAppDelegate.o0#
+
+CCompileC build/Detour.build/Debug-iphonesimulator/Detour.build/Objects-normal/i386/DetourViewController.o /Users/lowell/Projects/iPhone/Detour/Classes/DetourViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s286444716.957320
+e286444717.073303
+r1
+xCompileC
+xbuild/Detour.build/Debug-iphonesimulator/Detour.build/Objects-normal/i386/DetourViewController.o
+x/Users/lowell/Projects/iPhone/Detour/Classes/DetourViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/lowell/Projects/iPhone/Detour/Classes/DetourViewController.m286444716#286444717#0(0"0(0#0#67"/Users/lowell/Projects/iPhone/Detour/Classes/DetourViewController.m4300903632#1917"    cd /Users/lowell/Projects/iPhone/Detour    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/Detour-generated-files.hmap -I/Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/Detour-own-target-headers.hmap -I/Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/Detour-all-target-headers.hmap -iquote /Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/Detour-project-headers.hmap -F/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator -I/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/include -I/Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/DerivedSources/i386 -I/Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/DerivedSources -include /var/folders/YO/YO6CM3CbFC0OJreixas9j++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Detour_Prefix-cgujuoxrpxdurrcrackddcgnsokp/Detour_Prefix.pch -c /Users/lowell/Projects/iPhone/Detour/Classes/DetourViewController.m -o /Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/Objects-normal/i386/DetourViewController.o0#
+
+CCompileC build/Detour.build/Debug-iphonesimulator/Detour.build/Objects-normal/i386/main.o /Users/lowell/Projects/iPhone/Detour/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s286444716.871986
+e286444716.957178
+r1
+xCompileC
+xbuild/Detour.build/Debug-iphonesimulator/Detour.build/Objects-normal/i386/main.o
+x/Users/lowell/Projects/iPhone/Detour/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/lowell/Projects/iPhone/Detour/main.m286444716#286444716#0(0"0(0#0#43"/Users/lowell/Projects/iPhone/Detour/main.m4300903632#1877"    cd /Users/lowell/Projects/iPhone/Detour    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/Detour-generated-files.hmap -I/Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/Detour-own-target-headers.hmap -I/Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/Detour-all-target-headers.hmap -iquote /Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/Detour-project-headers.hmap -F/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator -I/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/include -I/Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/DerivedSources/i386 -I/Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/DerivedSources -include /var/folders/YO/YO6CM3CbFC0OJreixas9j++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Detour_Prefix-cgujuoxrpxdurrcrackddcgnsokp/Detour_Prefix.pch -c /Users/lowell/Projects/iPhone/Detour/main.m -o /Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/lowell/Projects/iPhone/Detour/Classes/../DetourViewController.xib
+s286444714.695888
+e286444715.801875
+r1
+xCompileXIB
+x/Users/lowell/Projects/iPhone/Detour/Classes/../DetourViewController.xib
+lSLF07#2@46"CompileXIB Classes/../DetourViewController.xib286444714#286444715#0(0"0(0#0#72"/Users/lowell/Projects/iPhone/Detour/Classes/../DetourViewController.xib4300903632#566"    cd /Users/lowell/Projects/iPhone/Detour    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/DetourViewController.nib /Users/lowell/Projects/iPhone/Detour/Classes/../DetourViewController.xib0#
+
+CCompileXIB /Users/lowell/Projects/iPhone/Detour/MainWindow.xib
+s286444714.683575
+e286444715.193389
+r1
+xCompileXIB
+x/Users/lowell/Projects/iPhone/Detour/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib286444714#286444715#0(0"0(0#0#51"/Users/lowell/Projects/iPhone/Detour/MainWindow.xib4300903632#535"    cd /Users/lowell/Projects/iPhone/Detour    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/MainWindow.nib /Users/lowell/Projects/iPhone/Detour/MainWindow.xib0#
+
+CCpResource build/Debug-iphonesimulator/Detour.app/Icon.png Icon.png
+s286444715.194925
+e286444715.233553
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Detour.app/Icon.png
+xIcon.png
+lSLF07#2@13"Copy Icon.png286444715#286444715#0(0"0(0#0#45"/Users/lowell/Projects/iPhone/Detour/Icon.png4300903632#507"    cd /Users/lowell/Projects/iPhone/Detour    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/lowell/Projects/iPhone/Detour/Icon.png /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app0#
+
+CCpResource build/Debug-iphonesimulator/Detour.app/README.markdown README.markdown
+s286444715.226042
+e286444715.240406
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Detour.app/README.markdown
+xREADME.markdown
+lSLF07#2@20"Copy README.markdown286444715#286444715#0(0"0(0#0#52"/Users/lowell/Projects/iPhone/Detour/README.markdown4300903632#514"    cd /Users/lowell/Projects/iPhone/Detour    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/lowell/Projects/iPhone/Detour/README.markdown /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app0#
+
+CCpResource build/Debug-iphonesimulator/Detour.app/back.png back.png
+s286444715.206542
+e286444715.233846
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Detour.app/back.png
+xback.png
+lSLF07#2@13"Copy back.png286444715#286444715#0(0"0(0#0#45"/Users/lowell/Projects/iPhone/Detour/back.png4300903632#507"    cd /Users/lowell/Projects/iPhone/Detour    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/lowell/Projects/iPhone/Detour/back.png /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app0#
+
+CCpResource build/Debug-iphonesimulator/Detour.app/back_pressed.png back_pressed.png
+s286444715.202589
+e286444715.233702
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Detour.app/back_pressed.png
+xback_pressed.png
+lSLF07#2@21"Copy back_pressed.png286444715#286444715#0(0"0(0#0#53"/Users/lowell/Projects/iPhone/Detour/back_pressed.png4300903632#515"    cd /Users/lowell/Projects/iPhone/Detour    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/lowell/Projects/iPhone/Detour/back_pressed.png /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app0#
+
+CCpResource build/Debug-iphonesimulator/Detour.app/detour.icns detour.icns
+s286444715.193508
+e286444715.233394
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Detour.app/detour.icns
+xdetour.icns
+lSLF07#2@16"Copy detour.icns286444715#286444715#0(0"0(0#0#48"/Users/lowell/Projects/iPhone/Detour/detour.icns4300903632#510"    cd /Users/lowell/Projects/iPhone/Detour    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/lowell/Projects/iPhone/Detour/detour.icns /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app0#
+
+CCpResource build/Debug-iphonesimulator/Detour.app/forward.png forward.png
+s286444715.210387
+e286444715.234139
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Detour.app/forward.png
+xforward.png
+lSLF07#2@16"Copy forward.png286444715#286444715#0(0"0(0#0#48"/Users/lowell/Projects/iPhone/Detour/forward.png4300903632#510"    cd /Users/lowell/Projects/iPhone/Detour    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/lowell/Projects/iPhone/Detour/forward.png /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app0#
+
+CCpResource build/Debug-iphonesimulator/Detour.app/forward_pressed.png forward_pressed.png
+s286444715.208356
+e286444715.233991
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Detour.app/forward_pressed.png
+xforward_pressed.png
+lSLF07#2@24"Copy forward_pressed.png286444715#286444715#0(0"0(0#0#56"/Users/lowell/Projects/iPhone/Detour/forward_pressed.png4300903632#518"    cd /Users/lowell/Projects/iPhone/Detour    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/lowell/Projects/iPhone/Detour/forward_pressed.png /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app0#
+
+CGenerateDSYMFile /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app.dSYM /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/Detour
+s286444717.266360
+e286444717.326022
+r1
+xGenerateDSYMFile
+x/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app.dSYM
+x/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/Detour
+lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/Detour.app.dSYM build/Debug-iphonesimulator/Detour.app/Detour286444717#286444717#0(0"0(0#0#82"/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/Detour4300903632#436"    cd /Users/lowell/Projects/iPhone/Detour    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/Detour -o /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app.dSYM0#
+
+CLd /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/Detour normal i386
+s286444717.073450
+e286444717.266208
+r1
+xLd
+x/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/Detour
+xnormal
+xi386
+lSLF07#2@87"Link /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/Detour286444717#286444717#0(0"0(0#0#0"4300903632#909"    cd /Users/lowell/Projects/iPhone/Detour    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator -F/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator -filelist /Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/Objects-normal/i386/Detour.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/Detour0#
+
+CProcessInfoPlistFile /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/Info.plist Detour-Info.plist
+s286444714.634657
+e286444714.683406
+r1
+xProcessInfoPlistFile
+x/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/Info.plist
+xDetour-Info.plist
+lSLF07#2@25"Process Detour-Info.plist286444714#286444714#0(0"0(0#0#54"/Users/lowell/Projects/iPhone/Detour/Detour-Info.plist31525648366108776#532"    cd /Users/lowell/Projects/iPhone/Detour    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility Detour-Info.plist -genpkginfo /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app/Info.plist0#
+
+CProcessPCH /var/folders/YO/YO6CM3CbFC0OJreixas9j++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Detour_Prefix-cgujuoxrpxdurrcrackddcgnsokp/Detour_Prefix.pch.gch Detour_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s286444715.802066
+e286444716.871656
+r1
+xProcessPCH
+x/var/folders/YO/YO6CM3CbFC0OJreixas9j++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Detour_Prefix-cgujuoxrpxdurrcrackddcgnsokp/Detour_Prefix.pch.gch
+xDetour_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Detour_Prefix.pch286444715#286444716#0(0"0(0#0#54"/Users/lowell/Projects/iPhone/Detour/Detour_Prefix.pch4300903632#1772"    cd /Users/lowell/Projects/iPhone/Detour    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/Detour-generated-files.hmap -I/Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/Detour-own-target-headers.hmap -I/Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/Detour-all-target-headers.hmap -iquote /Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/Detour-project-headers.hmap -F/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator -I/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/include -I/Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/DerivedSources/i386 -I/Users/lowell/Projects/iPhone/Detour/build/Detour.build/Debug-iphonesimulator/Detour.build/DerivedSources -c /Users/lowell/Projects/iPhone/Detour/Detour_Prefix.pch -o /var/folders/YO/YO6CM3CbFC0OJreixas9j++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Detour_Prefix-cgujuoxrpxdurrcrackddcgnsokp/Detour_Prefix.pch.gch0#
+
+CTouch /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app
+s286444717.326164
+e286444717.332413
+r1
+xTouch
+x/Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app
+lSLF07#2@81"Touch /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app286444717#286444717#0(0"0(0#0#0"4300903632#335"    cd /Users/lowell/Projects/iPhone/Detour    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/lowell/Projects/iPhone/Detour/build/Debug-iphonesimulator/Detour.app0#
+
